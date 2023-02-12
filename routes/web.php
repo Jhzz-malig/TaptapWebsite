@@ -34,3 +34,6 @@ Route::get('/dashadmin', function () {
 Route::get('/help', function () {
     return view('help');
 });
+Route::get('/createsql', function () {
+    return view('createsql');
+});
